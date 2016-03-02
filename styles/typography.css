@@ -1,0 +1,122 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2015-10-30, 16:41:54
+    Author     : Administrator
+*/
+
+body{
+    font-size: 76%;
+    font-family: "Helvetica","Arial",sans-serif;
+}
+
+
+body *{
+    font-size: 1em;
+}
+a{
+    font-weight: bold;
+    text-decoration: none;
+}
+header nav{
+    font-family: "Lucida Grande","Helvetica","Arial",sans-serif;
+}
+header nav a{
+    text-decoration: none;
+    font-weight: bold;
+}
+article{
+    line-height: 1.8em;
+}
+article p{
+    margin: 1em 0;
+}
+h1{
+    font-family: "Georgia","Times New Roman",sans-serif;
+    font:2.4em normal;
+}
+h2{
+    font-family: "Georgia","Times New Roman",sans-serif;
+    font:1.8em normal;
+    margin-top: 1em;
+}
+h3{
+    font-family: "Georgia","Times New Roman",sans-serif;
+    font:1.4em normal;
+    margin-top: 1em;
+}
+#imagegallery li{
+    list-style-type: noen;
+}
+textarea{
+    font-family: "Helvetica","Arial",sans-serif;
+}
+button{
+    font-weight: bold;
+    font-family: "Lucida Grande","Helvetica","Arial",sans-serif;
+}
+#song{
+    font-size: 20px;
+}
+#song_name{
+    text-align: left;
+}
+
+
+.sing_table th{
+    vertical-align: top;
+    text-align: left;
+    font-weight: normal;
+    color: #666;
+}
+
+.textBox{
+    text-align: left;
+    vertical-align: text-top;
+}
+
+.Dc{
+    font-family: Georgia, serif;
+    font-size: 32px;
+    font-weight: bold;
+    margin: 0;
+}
+#commentNew{
+    font-family: serif;
+    font-size: 16px;
+}
+#commentNew a{
+    text-decoration: none;
+}
+
+#commenttable{
+    text-align:center;
+    font-size: 15px;
+}
+#comment_body{
+    font-size: 10px;
+}
+
+.sing_table th .wp{
+    text-align: center;
+    font-family: Georgia, serif;
+    font-size: 15px;
+}
+.sing_table tbody .hp{
+    text-align: center; 
+}
+.sing_table tbody .hp a{
+    text-decoration: none;
+
+}
+#comment-content{
+    font-family:  "Microsoft YaHei","Helvetica","Arial",sans-serif;
+    font-size: 12px;
+    text-align: left;
+}
+.lpl,.lp{
+    font-size: 15px;
+}

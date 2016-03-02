@@ -1,0 +1,180 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 2015-10-30, 16:41:22
+    Author     : Administrator
+*/
+
+section,header,article,nav{
+    display: block;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    margin: 1em 10%;
+    background-color:#334;
+    background-attachment: fixed;
+    background-position: top left;
+    background-repeat: repeat-x;
+    max-width: 80em;
+    width: 1376px;
+
+}
+header{
+    background-image: url(../images/home.jpg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    border-width: .1em;
+    border-style: solid;
+    border-bottom-width: 0;
+    min-width:850px; 
+}
+header nav {
+    background-image:url(../images/navbar.jpg);
+
+    background-position: bottom left;
+    background-repeat: repeat-x;
+    border-width: .1em;
+
+    border-style: solid;
+    border-bottom-width: 0;
+    border-top-width: 0;
+    padding-left: 10%;
+
+}
+header nav ul{
+    width: 100%;
+    overflow: hidden;
+    border-left-width: .1em;
+    border-left-style: solid;
+
+}
+header nav li{
+    display: inline;
+    height: 100%;
+}
+header nav li a{
+    height: 16px;
+    display: block;
+    float: left;
+    padding:0.75em 2em;
+    border-right: .1em solid;
+}
+
+article {
+    border-width: .1em;
+    border-style: solid;
+    border-top-width: 0;
+    padding: 2em 10%;
+    line-height: 1.8em;
+    
+
+}
+article img{
+    border-width: .1em;
+    border-style: solid;
+    outline-width: .1em;
+    outline-style: solid;
+}
+button{
+    margin: 5px;
+    margin-left: 2px;
+    margin-right: 2px;
+    width: 55px;
+    color: #787878;
+}
+
+#search{
+    margin-left: 0px;
+}
+input{
+    margin-right: 0px;
+    width: 150px;
+    margin-left: 50px;
+}
+#showTime,#Praise{
+    margin-left: 30px;
+    margin-right: 30px;
+    width: 200px;
+}
+#song_name{
+    width: 300px;
+
+}
+#song{
+    margin: 10px;
+}
+#Home header{
+
+    background-image: url(../images/home.jpg);
+}
+#Rank header{
+    background-image: url(../images/rank.jpg);
+}
+#Reco header{
+    background-image: url(../images/Record.jpg);
+}
+#comm header{
+    background-image: url(../images/commentArea.jpg);
+}
+#newS header{
+    background-image: url(../images/newSong.jpg);
+}
+
+
+.sing_table th{
+    height: 38px;
+    background-color: #CFCFCF;
+    background-position: 0px 0px;
+    background-repeat: repeat-x;
+    width: 10%;
+}
+.sing_table th .wp{
+    height: 18px;
+    line-height: 18px;
+    padding: 8px 10px;
+    background-position: 0px -56px;
+}
+.sing_table .r1c1{
+    width: 3%;
+}
+.sing_table .c3{
+    width: 5%;
+}
+
+.textBox{
+    width: 400px;
+    height: 70px;
+}
+
+#No{
+    width: 40px;
+}
+#comment_ID{
+    width: 100px;
+}
+#comment_Time{
+    width:180px;
+}
+.lp{
+    width: 150px;
+}
+.lpl{
+    width: 40px;
+}
+.lpx{
+    border-collapse: collapse;
+}
+
+#search_text {
+    height: 20px;
+}
+
+#paragraph{
+    font-size: 15px;
+}

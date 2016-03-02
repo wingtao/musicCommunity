@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>中南音乐社区</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="support/jquery-ui-1.10.2.custom/js/jquery-1.9.1.js"></script>
+        <link rel="stylesheet" href="support/jquery-ui-1.10.2.custom/css/ui-lightness/jquery-ui-1.10.2.custom.css">
+        <script src="support/jquery-ui-1.10.2.custom/js/jquery-ui-1.10.2.custom.js"></script>
+
+        <script src="scripts/Connector.js"></script>
+        <script src="scripts/modernizr.min.js"></script>
+        <script src="scripts/global.js"></script>
+        <script src="scripts/LoginDialog.js"></script>
+        <script src="scripts/UserDialog.js"></script>
+        <link rel="stylesheet" media="screen" href="styles/basic.css"/>
+        <script src="scripts/uuid.js"></script>
+        <script src="scripts/newSong.js"></script>
+
+
+    </head>
+    <body>
+        <header>
+            <img src="images/background.jpg" alt="中南古典乐"/>
+            <nav>
+                <ul>
+                    <li><a href="index.html" >首页</a> </li>
+                    <li><a href="newSongs.html" >新歌</a> </li>
+                    <li><a href="Recorded.html" >录歌</a> </li>
+                    <li><a href="Ranks.html" >排行榜</a> </li>
+                    <li><a href="commentArea.html" >校园动态</a> </li>
+                    <li><input type="text" id="search_text" name="searchText" placeholder="歌曲名称"></li>
+                    <li><button type="button" id="search">搜索</button> </li>
+                    <li>  <button type="button" id="login">登录</button></li>
+                    <li>
+                        <button type="button" id="register">注册</button>
+                    </li>
+                    <li><button type="button" id="logout">注销</button></li>
+                </ul>
+            </nav>
+        </header>
+        <article>
+            <h3 class="Dc">讨论区</h3>
+            <div id="commentNew">
+                <textarea class="textBox" id="comment" name="comment" placeholder="看点嘈点，不吐不快！别憋着，马上大声说出来吧！"></textarea> 
+                <br/>
+                <button onclick=showComment()>提交</button>
+            </div>
+            <div id="commentList">
+
+                <table  id="commenttable" >    
+                    <thead class="header">
+                        <tr >    
+                            <th id="No">No</th>    
+                            <th id="comment_ID">评论人</th>    
+                            <th id="comment_Text">评论</th>
+                            <th id="comment_Time">时间</th>    
+
+                        </tr>
+                    </thead>
+                    <tbody id="comment_body">
+
+                    </tbody>
+                </table>     
+            </div>
+        </article>
+        <script src="scripts/global.js"></script>
+        <script src="scripts/Discuss.js"></script>
+    </body>
+</html>
